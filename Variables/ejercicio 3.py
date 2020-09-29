@@ -1,2 +1,3 @@
 nombre_de_usuario = input("Ingresa tu nombre: ")
-print("hola,"+nombre_de_usuario+" Bienvenido a Python")
+mensaje_bienvenida = "hola, "+nombre_de_usuario+". Bienvenido a Python"
+print(mensaje_bienvenida)
