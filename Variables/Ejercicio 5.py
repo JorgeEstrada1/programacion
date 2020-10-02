@@ -1,0 +1,5 @@
+horas_trabajadas = input("Ingrse cantidad de horas trabajadas: ")
+paga_por_horas = input("Ingrese paga por hora: ")
+monto_a_pagar = int(horas_trabajadas) * int(paga_por_horas)
+mensaje = "Monto total: " + str(monto_a_pagar)
+print(mensaje)
