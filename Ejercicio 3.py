@@ -11,6 +11,5 @@ for i in range(0,tamaño):
         ultimo_digito= num[len(num)-1]
     if ultimo_digito==digito:
         numero.append(num)
-
 print(numero)
 print(array)
