@@ -1,5 +1,5 @@
 import random
-numeros_correcto=[]
+numero=[]
 array=[]
 tamaño=int(input("ingrese el tamaño de su array: "))
 for i in range(0,tamaño):
@@ -11,5 +11,5 @@ for i in range(0,tamaño):
     if ultimo_digito=="5":
         numeros_correcto.append(num)
 
-print(numeros_correcto)
+print(numero)
 print(array)
